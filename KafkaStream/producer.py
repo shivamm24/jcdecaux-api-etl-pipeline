@@ -6,7 +6,7 @@ from kafka import KafkaProducer
 logging.basicConfig(filename='producer_kafka.log', level=logging.INFO, 
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
-api_key = '99a9678f7da32e551ade2bf9c00a41ba34106d76'
+api_key = 'XXXXXXXXXX'
 
 stations_url = f"https://api.jcdecaux.com/vls/v1/stations?&apiKey={api_key}" #all stations of all available cities
 server = 'localhost'
