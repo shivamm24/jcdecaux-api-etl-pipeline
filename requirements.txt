@@ -1,0 +1,5 @@
+pandas
+pyspark
+streamlit
+streamlit_autorefresh
+pydeck[jupyter]
